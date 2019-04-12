@@ -17,10 +17,12 @@ function checkWipStatus() {
         } else {
             mergeButton.disabled = false;
         }
+    } else {
+        setTimeout(checkWipStatus, 100);
     }
 }
 
-setTimeout(checkWipStatus, 2000);
+checkWipStatus();
 
 
 function getTitle() {
