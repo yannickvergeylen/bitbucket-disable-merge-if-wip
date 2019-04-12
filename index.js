@@ -3,7 +3,6 @@ let mergeButton;
 
 const workInProgressMatchers = [
     '^WIP',
-    '[WIP]'
 ];
 
 function checkWipStatus() {
